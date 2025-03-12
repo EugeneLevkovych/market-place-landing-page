@@ -1,0 +1,25 @@
+$color-primary: #fff;
+$background-color: #413dee;
+$color-red: #eb3131;
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  .header-container__logo {
+    margin-right: 110px;
+    margin-left: 100px;
+  }
+}
+
+nav {
+  display: flex;
+  background-color: $color-primary;
+}
+
+.navigation {
+  display: flex;
+  gap: 60px;
+}
+.shopping {
+  display: flex;
+}
